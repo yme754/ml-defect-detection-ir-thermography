@@ -1,2 +1,4 @@
 # ml-defect-detection-ir-thermography
 Machine Learning-based Characterization in Anisotropic Materials using IR Thermography
+
+This project leverages infrared thermography and machine learning to detect and characterize internal defects in anisotropic composite materials. Using OpenCV, it processes thermal images to segment relevant regions, particularly warm and blue zones that may indicate defects. A custom-built Convolutional Neural Network (CNN) is employed to predict defect attributes such as size and thickness from the extracted regions of interest (ROIs). The model is designed using PyTorch and works in an inference-only mode, producing predictions in near real-time. The system offers a non-destructive, automated, and scalable solution for quality inspection in industries like aerospace, automotive, and manufacturing.
